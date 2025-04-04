@@ -40,11 +40,12 @@ function StartupCard({ post }: { post: StartupCardType }) {
                 </div>
                 <Link href={`/user/${author?._id}`}>
                     <Image
-                        src="https://placehold.co/48x48"
+                        // src="https://placehold.co/48x48"
+                        src={"https://avatars.githubusercontent.com/u/59761032?v=4"}
                         alt={author?.name || "Author profile"}
                         width={48}
                         height={48}
-                        className="rounded-full"
+                        className="rounded-full border"
                     />
                 </Link>
             </div>
